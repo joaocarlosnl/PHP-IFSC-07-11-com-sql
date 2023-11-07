@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Roboto+Condensed&family=Tulpen+One&display=swap');
+
+body {
+ font-family: "Barlow Condensed";
+ margin: 0;
+ font-size: 22px;
+}
+
+h1 {
+ font-family: "Tulpen One";
+ text-align: center;
+ border-bottom: 1px solid #777;
+ background-color: #ee3131;
+ box-shadow: 0 0 5px 5px #1b3409;
+ margin: 0;
+ margin-bottom: 50px;
+ text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);
+}
+
+fieldset {
+ width: 40%;
+ margin: auto;
+ margin-bottom: 50px;
+ padding-top: 15px;
+ padding-left: 30px;
+ border-radius: 10px;
+ background-color: #8dbef7;
+}
+
+label.alinha {
+ width: 230px;
+ display: inline-block;
+ text-align: left;
+ margin-bottom: 10px; 
+}
+
+input[name="aluno"] {
+ width: 300px;
+}
+
+input, button {
+ font-family: "Barlow Condensed";
+}
+
+button {
+ font-size: 20px;
+ font-weight: bold;
+}
+
+div.botao {
+ text-align: center;
+ margin-top: 20px;
+}
+
+p {
+ width: 50%;
+ border: 1px solid #777;
+ margin: 20px auto;
+ text-align: center;
+ background: #bfe7a2;
+}
+
+span {
+ color: #0f083b;
+ font-weight: bold;
+ font-style: italic;
+}
+
+table {
+ width: 50%;
+ border: 1px solid #777;
+ background: #ebf7e3;
+ margin: 30px auto;
+}
+
+td, th {
+ border: 1px solid #777;
+}
+
+th {
+ background: #1b3409;
+ color: #fff;
+}
+
+td {
+ padding-left: 15px;
+}

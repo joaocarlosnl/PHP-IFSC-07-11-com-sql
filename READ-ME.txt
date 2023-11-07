@@ -1,0 +1,26 @@
+Exercício avaliativo para a disciplina de Programação Web II do Instituto Federal de Santa Catarina IFSC 
+Prof. Herval Daminelli 
+Alunos: João Carlos Nogueira
+
+Questão 7 (exercício de revisão e fixação da aprendizagem): 
+Suponha que o IFSC câmpus Florianópolis necessite de uma aplicação web destinada a controlar informações relacionadas a cursos e alunos que frequentam estes cursos. 
+Para tanto, devemos criar uma aplicação web cujo formulário (válido segundo as normas do HTML5) receba as seguintes informações para cadastro:
+
+Dos cursos:
+	Código (campo exclusivo para cada curso, alfanumérico}
+	Nome do curso
+
+Dos alunos:
+	Matrícula (campo exclusivo para cada aluno, alfanumérico);
+	Nome do aluno;
+	Número de créditos semanais (quantas aulas o aluno tem por semana);
+	Código do curso em que o aluno está matriculado.
+
+Após isso, implementar um script em PHP que:
+
+a) Efetue o cadastro de cursos e alunos no banco de dados, correlacionados por chave estrangeira;
+
+b) Implementar, no formulário, um módulo de pesquisa que forneça o nome do curso. Após isso, um script em PHP.
+acessando o banco de dados, deverá:
+ 	I. Mostrar, na página web, uma relação com os dados de todos os alunos que frequentam o referido curso, no formato tabular;
+	II. Mostrar, na página web, a média de créditos semanais dos alunos que frequentam o referido curso.
